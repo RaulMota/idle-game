@@ -10,7 +10,7 @@ export class IdleGame extends LitElement {
 
   constructor() {
     super();
-    this.moedas = 0;
+    this.moedas = 10;
     this.geradores = [
       { nome: "Minerador", quantidade: 0, custo: 10, producao: 0.1, fator: 1.15 },
       { nome: "Fábrica", quantidade: 0, custo: 100, producao: 1, fator: 1.2 },
