@@ -12,9 +12,9 @@ export class IdleGame extends LitElement {
     super();
     this.moedas = 10;
     this.geradores = [
-      { nome: "Minerador", quantidade: 0, custo: 10, producao: 0.1, fator: 1.15 },
-      { nome: "Fábrica", quantidade: 0, custo: 100, producao: 1, fator: 1.2 },
-      { nome: "Usina", quantidade: 0, custo: 1000, producao: 10, fator: 1.25 },
+      { nome: "Minerador", quantidade: 0, custo: 10, producao: 1, fator: 1.15 },
+      { nome: "Fábrica", quantidade: 0, custo: 100, producao: 10, fator: 1.2 },
+      { nome: "Usina", quantidade: 0, custo: 1000, producao: 100, fator: 1.25 },
     ];
     this.ultimoTempo = performance.now();
     this.loop();
